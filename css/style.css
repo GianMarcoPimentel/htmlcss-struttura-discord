@@ -211,7 +211,6 @@ footer .container4 {
     width: 60%;
     height: 300px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 footer .container4 .box5{
@@ -239,5 +238,21 @@ footer .container4 .box6{
 
 /* fine footer*/
 
+.last-section{
+    width: 100%;
+    height: 150px;
+    background-color: #23272A;
+    border-top: 2px #C9C9C9 solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
-
+.last-section .container5{
+    width: 60%;
+    height: 40px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
