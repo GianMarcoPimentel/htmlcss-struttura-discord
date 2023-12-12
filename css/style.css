@@ -200,18 +200,18 @@ footer{
     width: 100%;
     height: 450px;
     background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
 
 }
 footer .container4 {
 
     width: 60%;
     height: 300px;
-
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
+    flex-wrap: wrap;
 }
 
 footer .container4 .box5{
@@ -226,12 +226,21 @@ footer .container4 .box5{
 
 footer .container4 .box6{
 
-    width: calc(100% / 6);
+    width: calc(100% / 7);
     height: 300px;
+    flex-grow: 1;
 
 
     background-color: #20B2AA;
     border: 1px white dashed;
 
+
+}
+
+footer .container4 .box7{
+    width: 100%;
+    height: 40px;
+    background-color: #7FFFD4;
+    border: 2px #C9C9C9 solid;
 
 }
