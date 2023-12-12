@@ -15,7 +15,7 @@
 nav {
     background-color: #ADD8E6 ;
     width: 100%;
-    height: 40px;
+    height: 20px;
 
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@ nav .logo {
 }
 /* fine primo aside*
 
-/* main */
+/* main del container*/
 nav .link {
     border: 1px black dashed;
     padding: 8px;
@@ -52,7 +52,7 @@ a{
     color: black;
     text-decoration: none;
 }
-/* fine main */
+/* fine main del container*/
 
 /* secondo aside */
 nav .login {
@@ -70,7 +70,7 @@ nav .login {
 /* secondo blocco , header*/ 
 header{
     width: 100%;
-    height: 400px;
+    height: 200px;
     background-color: blue;
 
     display: flex;
@@ -84,4 +84,46 @@ header .box{
     height: 80%;
     background-color: #EE82EE;
     
+}
+.first-part{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-part .container2{
+    width: 60%;
+
+    display: flex ;
+   
+    
+
+}
+.first-part .container2 .box1{
+    border: 1px black dashed;
+    width: 500px;
+    height: 250px;
+
+    padding: 50px;
+
+    background-color: #1E90FF;
+
+
+
+
+}
+
+.first-part .container2 .box2{
+    border: 1px black dashed;
+    height: 250px;
+    padding: 50px;
+
+    flex-grow: 1;
+
+    background-color: #FFC0CB;
+
+
 }
