@@ -7,7 +7,7 @@
 
 .container {
     display: flex;
-    width: 70%;
+    width: 60%;
 
     background-color: #DAA520;
 }
@@ -189,5 +189,19 @@ header .box{
     height: 80%;
     background-color: #228B22;
     border: 1px black dashed;
+
+}
+/* fine quarta section*/
+
+/* inizio footer*/
+footer{
+
+    width: 100%;
+    height: 450px;
+    background-color: #23272A;
+    
+
+}
+footer .container4{
 
 }
