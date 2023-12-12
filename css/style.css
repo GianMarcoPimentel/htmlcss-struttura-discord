@@ -167,3 +167,27 @@ header .box{
     background-color: #FFC0CB;
 
 }
+/* fine second-section*/
+
+/* la third-section è uguale alla prima quindi non c'è bisogno di stilizarla di nuovo*/
+
+/* quarta section*/
+.fourth-part{
+    width: 100%;
+    height: 550px;
+    background-color: #D3D3D3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fourth-part .container3{
+
+    width: 60%;
+    height: 80%;
+    background-color: #228B22;
+    border: 1px black dashed;
+
+}
