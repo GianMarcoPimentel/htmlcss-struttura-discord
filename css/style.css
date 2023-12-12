@@ -85,7 +85,9 @@ header .box{
     background-color: #EE82EE;
     
 }
-.first-part{
+
+/* stilizzazione first-section*/
+.first-section{
     width: 100%;
     height: 300px;
     background-color: white;
@@ -94,7 +96,7 @@ header .box{
     justify-content: center;
     align-items: center;
 }
-.first-part .container2{
+.first-section .container2{
     width: 60%;
 
     display: flex ;
@@ -102,7 +104,7 @@ header .box{
     
 
 }
-.first-part .container2 .box1{
+.first-section .container2 .box1{
     border: 1px black dashed;
     width: 500px;
     height: 250px;
@@ -111,12 +113,9 @@ header .box{
 
     background-color: #1E90FF;
 
-
-
-
 }
 
-.first-part .container2 .box2{
+.first-section .container2 .box2{
     border: 1px black dashed;
     height: 250px;
     padding: 50px;
@@ -125,5 +124,46 @@ header .box{
 
     background-color: #FFC0CB;
 
+}
+/* fine stilizzazione first-section*/
+
+/* stilizzazione second-section*/
+.second-section{
+    width: 100%;
+    height: 300px;
+    background-color: #D3D3D3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-section .container2{
+    width: 60%;
+
+    display: flex ;
+    flex-direction: row-reverse;
+
+    
+
+}
+.second-section .container2 .box3{
+    border: 1px black dashed;
+    width: 500px;
+    height: 250px;
+
+    padding: 50px;
+
+    background-color: #1E90FF;
+
+}
+
+.second-section .container2 .box4{
+    border: 1px black dashed;
+    height: 250px;
+    padding: 50px;
+
+    flex-grow: 1;
+
+    background-color: #FFC0CB;
 
 }
