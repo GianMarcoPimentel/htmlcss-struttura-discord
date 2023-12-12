@@ -40,12 +40,17 @@ nav .logo {
 nav .link {
     border: 1px black dashed;
     padding: 8px;
+    color: black;
 
     display: flex;
     justify-content: center;
-    flex-grow: 1;
-    
+    flex-grow: 1;  
 
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 /* fine main */
 
