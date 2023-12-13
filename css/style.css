@@ -125,5 +125,17 @@ nav .login .start-button{
     padding: 10px 0px;
     margin-right: 15px;
 }
-
-
+/* inizio le section */
+.first-section{
+    border-bottom-style: outset black;
+}
+.big-column{
+    width: 600px;
+}
+.small-container{
+    flex-grow: 1;
+    flex: left;
+}
+.second-section{
+    background-color: #F6F6F6;
+}
