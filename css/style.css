@@ -6,287 +6,71 @@
 /* reset */
 
 .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3161E0;
     display: flex;
-    width: 60%;
-    margin: 10px 10px;
-
-    background-color: #DAA520;
+    align-items: center;
+   
 }
+
 /* nav */
 nav {
-    background-color: #ADD8E6 ;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-color: #3161E0 ;
+    padding: 10px;
    
 }
 /* fine nav */
 
 /* stilizo il primo aside*/
-nav .logo {
-    border: 1px black dashed;
-    width: 100px;
-    padding: 8px;
-
-    
+nav .container > * {
+    background-color: #3161E0 ;
+    padding: 10px ;
+}
+nav .container{
     display: flex;
-    justify-content: flex-start;
+}
+nav .logo {
+    width: 150px;
+    text-align: start;
+   
+    
 }
 /* fine primo aside*
 
 /* main del container*/
-nav .link {
-    border: 1px black dashed;
-    padding: 8px;
-    color: black;
-
-    display: flex;
-    justify-content: center;
+nav .nav-link {
     flex-grow: 1;  
 
+
 }
 
-nav .link a{
-    color: black;
-    text-decoration: none;
-    margin: 0px 8px;
+nav .nav-link ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+    gap: 12px;
+    color: white;
 }
+
 /* fine main del container*/
 
 /* secondo aside */
 nav .login {
-    border: 1px black dashed;
-    width: 100px;
-    padding: 8px;
-
+    width: 150px;
+    text-align: right;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
 
+}
+nav .login .start-button{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 /* fine secondo aside*/
 
-/* secondo blocco , header*/ 
-header{
-    width: 100%;
-    height: 200px;
-    background-color: blue;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* fine regole header*/
-header .box{
-    border: 1px black dashed;
-    width: 50%;
-    height: 80%;
-    background-color: #EE82EE;
-    
-}
-
-/* stilizzazione first-section*/
-.first-section{
-    width: 100%;
-    height: 300px;
-    background-color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.first-section .container2{
-    width: 60%;
-
-    display: flex ;
-   
-    
-
-}
-.first-section .container2 .box1{
-    border: 1px black dashed;
-    width: 400px;
-    height: 250px;
-
-    padding: 50px;
-
-    background-color: #1E90FF;
-
-}
-
-.first-section .container2 .box2{
-    border: 1px black dashed;
-    height: 250px;
-    padding: 50px;
-
-    flex-grow: 1;
-
-    background-color: #FFC0CB;
-
-}
-/* fine stilizzazione first-section*/
-
-/* stilizzazione second-section*/
-.second-section{
-    width: 100%;
-    height: 300px;
-    background-color: #D3D3D3;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.second-section .container2{
-    width: 60%;
-
-    display: flex ;
-    flex-direction: row-reverse;
-
-    
-
-}
-.second-section .container2 .box3{
-    border: 1px black dashed;
-    width: 400px;
-    height: 250px;
-
-    padding: 50px;
-
-    background-color: #1E90FF;
-
-}
-
-.second-section .container2 .box4{
-    border: 1px black dashed;
-    height: 250px;
-    padding: 50px;
-
-    flex-grow: 1;
-
-    background-color: #FFC0CB;
-
-}
-/* fine second-section*/
-
-/* la third-section è uguale alla prima quindi non c'è bisogno di stilizarla di nuovo*/
-
-/* quarta section*/
-.fourth-part{
-    width: 100%;
-    height: 550px;
-    background-color: #D3D3D3;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.fourth-part .container3{
-
-    width: 60%;
-    height: 80%;
-    background-color: #228B22;
-    border: 1px black dashed;
-
-}
-/* fine quarta*/
-
-/* inizio footer*/
-footer{
-
-    width: 100%;
-    height: 350px;
-    background-color: #23272A;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    
-
-}
-footer .container4 {
-
-    width: 60%;
-    height: 300px;
-
-    padding-top: 10px;
-    display: flex;
-}
-
-footer .container4 .box5{
-
-    width: calc(100% / 3);
-    height: 300px;
-
-    background-color: #F08080;
-    border: 1px black dashed;
-
-}
-
-footer .container4 .box6{
-
-    
-    height: 300px;
-    flex-grow: 1;
-
-
-    background-color: #20B2AA;
-    border: 1px white dashed;
-
-
-}
-
-/* fine footer*/
-
-/* inixio last-section*/
-
-.last-section{
-    width: 100%;
-    height: 70px;
-    background-color: #23272A;
-    border-top: 2px #C9C9C9 solid;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.last-section .container5{
-    width: 60%;
-    height: 40px;
-    background-color: #7FFFD4;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: flex-end;
-    align-items: center;
-}
-
-.last-section .container5 .Logo{
-
-    width: 50px;
-    height: 50%;
-    background-color: #FFB6C1;
-    border: 1px black dashed;
-    display: flex;
-    justify-content: center;
-    
-
-
-
-}
-
-.last-section .container5 .Bottone{
-
-    width: 50px;
-    height: 50%;
-    background-color: #FFB6C1;
-    border: 1px black dashed;
-    display: flex;
-    justify-content: center;
-    
-    
-
-}
-/* fine last-section*/
