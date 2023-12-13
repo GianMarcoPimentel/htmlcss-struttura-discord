@@ -9,7 +9,6 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #3161E0;
     display: flex;
     align-items: center;
    
@@ -22,7 +21,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.row{
+    display: flex;
+}
 /* nav */
 nav {
     background-color: #3161E0 ;
@@ -84,9 +85,45 @@ nav .login .start-button{
 
 /* Header */
 #heading {
-    display: flex;
+    width: 100%;
+    height: 500px;
+
+    background-image: url('file:///Users/cholo69/Documents/Boolean%23118/Esercizi/htmlcss-discord/htmlcss-struttura-discord/img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-#heading .title{
-  
+#heading .title-1 {
+   text-align: center;
+    color: white;
+    
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
+#heading .title-2{
+    text-align: center;
+    color: white;
+
+    padding: 40px 0px;
+}
+#heading .buttons{
+    text-align: center;
+}
+#heading .buttons .button1{
+    width: 200px;
+    background-color: #FFFFFF;
+    color: #23272A;
+    border-radius: 45%;
+    padding: 10px 0px;
+    margin-right: 15px;
+}
+#heading .buttons .button2{
+    width: 200px;
+    background-color:#23272A ;
+    color: #FFFFFF;
+    border-radius: 45%;
+    padding: 10px 0px;
+    margin-right: 15px;
+}
+
+
