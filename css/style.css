@@ -112,6 +112,7 @@ nav .login .start-button{
 #heading .buttons .button1{
     width: 200px;
     background-color: #FFFFFF;
+    border: 1px solid white;
     color: #23272A;
     border-radius: 45%;
     padding: 10px 0px;
@@ -120,15 +121,14 @@ nav .login .start-button{
 #heading .buttons .button2{
     width: 200px;
     background-color:#23272A ;
+    border: 1px solid #23272A;
     color: #FFFFFF;
     border-radius: 45%;
     padding: 10px 0px;
     margin-right: 15px;
 }
 /* inizio le section */
-.first-section{
-    border-bottom-style: outset black;
-}
+
 .big-column{
     width: 600px;
 }
@@ -138,4 +138,33 @@ nav .login .start-button{
 }
 .second-section{
     background-color: #F6F6F6;
+}
+.fourth-section{
+    background-color: #F6F6F6;
+
+}
+footer{
+    height: 700px;
+    background-color: #23272A;
+
+    padding-top: 10px;
+}
+footer #footer-top{
+    margin-bottom: 30px;
+}
+footer #footer-top .footer-links{
+    height: 500px;
+    width: calc(100% /3)
+}
+footer #footer-top .footercolumn{
+    width: calc(100% / 6);
+    flex-grow: 1;
+}
+footer #footer-bottom{
+    margin-top: 16px;
+
+    justify-content: space-between;
+}
+footer #footer-bottom > *{
+    padding: 4px 8px;
 }
