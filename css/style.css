@@ -151,8 +151,10 @@ footer{
 }
 footer #footer-top{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
-footer #footer-top .footer-links{
+footer #footer-top .footer-lists{
     height: 500px;
     width: calc(100% /3);
     display: flex;
@@ -162,6 +164,10 @@ footer #footer-top .footercolumn{
     width: calc(100% / 6);
     flex-grow: 1;
 }
+.container3{
+    
+}
+
 footer #footer-bottom{
     margin-top: 16px;
 
@@ -174,4 +180,8 @@ footer #footer-bottom > *{
 }
 footer .footer-column ul{
     list-style-type: none;
+}
+footer #footer-bottom .last-button{
+    width: 150px;
+   border-radius: 50%;
 }
